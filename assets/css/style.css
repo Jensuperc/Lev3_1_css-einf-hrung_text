@@ -1,0 +1,61 @@
+header h1 {
+    background-color: grey;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section p:nth-of-type(1) {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+section p:nth-of-type(2) {
+    text-transform: lowercase;
+    text-decoration: overline;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+section h2 {
+    word-spacing: 15px;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px #ff0000;
+    text-align: right;
+}
+
+section p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+article {
+    background-color: greenyellow;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+article li:nth-of-type(1) {
+    background: rgb(54, 65, 65);
+    margin: 30px;
+    margin-right: 200px;
+
+}
+
+article li:nth-of-type(2) {
+    background: rgb(65, 122, 122);
+    margin: 30px;
+    margin-right: 200px;
+
+}
+
+article li:nth-of-type(3) {
+    background: rgb(151, 42, 84);
+    margin: 30px;
+    margin-right: 200px;
+
+}
